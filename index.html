@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>
+        <h4></h4>
+        <ul>
+            <li><a href="#About">About Me</a></li>
+            <li><a href="#My Work">My Work</a></li>
+            <li><a href="#My Skills">My Skills</a></li>
+        </ul>
+    </header>
+    <section>
+        <h3>Hi, I'm</h3>
+        <h1>Arkarios07</h1>
+        <h5>P.S. My real name is B Chetan Rao</h5>
+    </section>
+    <section id="About">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe dolorem qui autem ipsum dicta amet fugiat dolores sed, eius atque ratione neque perspiciatis perferendis tempore assumenda praesentium id delectus, consectetur blanditiis, reprehenderit rerum consequatur reiciendis architecto? Non eius in explicabo sit tempore porro officiis ab voluptatum pariatur dolorem perspiciatis unde, fugiat, a saepe! Quidem, reprehenderit non ad, repellendus reiciendis eaque necessitatibus voluptas eum illum delectus odit ipsam repellat recusandae. Facere, ullam quidem iusto enim eius commodi consectetur praesentium doloremque cum? Doloremque numquam facere, eos accusantium officia excepturi distinctio dolore aspernatur harum, animi delectus officiis blanditiis, minima neque veritatis maxime ipsa.</p>
+    </section>
+    <section id="My Work">
+        <h2>My Work</h2>
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <img src="./SVG/Kakashi.svg" width="33%;" style="margin: 3em 32%;">
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="./SVG/MadaraUchiha.svg" width="33%;" style="margin: 3em 32%;">
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="./SVG/Ryuk.svg" width="33%;" style="margin: 3em 32%;"> 
+          </div>
+
+          <div class="mySlides fade">
+            <img src="./SVG/Tanjiro.svg" width="33%;" style="margin: 3em 32%;">  
+          </div>
+
+
+            <div class="mySlides fade">
+              <img src="https://fsb.zobj.net/crop.php?r=xw8jyUJd7ZyNWEzAp7yyQgKxda6yV9IIkpalI-LMuceqBIPVkCD7XUCo5RdDt6-tdzH6Ukrg4tT-DHteglUJF1nj-vTBLpEJrLZvVogJLojyXayydMgN6e40zsvkKQz9svDM5rhTQP35j_yQ" width="30%;" height="100%-1em" style="margin: 2% 35%;">
+                          </div>
+            
+            <div class="mySlides fade">
+              <img src="https://fsa.zobj.net/crop.php?r=rMIDPFlEvognEBbZ4Jo0t2BDidC6KWLpPcZtJyIa7c2Ovyt7aJfIjyyCBgeNcPebb9KJbBc4crSuudBku1S58KWa3AdU6yOSzHXCueJxYLSKv3odYZipCMA53Mf9_GvVfYBiSXZuA959enxj" width="30%;" height="100%-1em" style="margin: 2% 35%;">
+                         </div>
+            
+            <div class="mySlides fade">
+              <img src="https://fsb.zobj.net/crop.php?r=Iu2YbTjLkwyO9vH5ksYqxzYsi7K93MImVzrXU-rhW3ZQ7G9E5eh5MPwAfMeNY-HmqoUK1vyFKVOYbn3tcs2rHonOhWVFOYa70iWzaquNHlB_pyV_9eTaeaxQT5v_Bh95iEiqw5AvmEZQVyQM" width="30%;" height="100%-1em" style="margin: 2% 35%;">
+              
+            </div>
+
+            <div class="mySlides fade">
+              <img src="https://fsb.zobj.net/crop.php?r=vKK3aPGPhqqQh8-oD3KPoIi_6LqTh9YUrAB024CGzrDIdoOR0Isv0EwSo_OJOTZ6hr2LXBLHPHRLmVp7uPOlQvg59ouW9wD-GXjaKnXfq2TD3vBTUjLFNJxj95MFlD7AsxlJpCLuqFFp3ZrV" width="30%;" height="100%-1em" style="margin: 2% 35%;">
+              
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+              <span class="dot" onclick="currentSlide(5)"></span>
+              <span class="dot" onclick="currentSlide(6)"></span>
+              <span class="dot" onclick="currentSlide(7)"></span>
+              <span class="dot" onclick="currentSlide(8)"></span>
+            </div>
+            
+            <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+            </script>
+
+    </section>
+    <section id="My Skills">
+        <h2>My Skills</h2>
+        <div class="bar">
+            <div class="skills html noisy">HTML  90% </div>
+          </div>
+          <div class="bar">
+            <div class="skills css noisy">CSS  80% </div>
+          </div>
+          <div class="bar">
+            <div class="skills js noisy">JS  35% </div>
+          </div>
+          <div class="bar">
+            <div class="skills ai noisy">Adobe Illustrator  60% </div>
+          </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script> options = {
+        bottom: '64px', // default: '32px'
+        right: 'unset', // default: '32px'
+        left: '32px', // default: 'unset'
+        time: '0.7s', // default: '0.3s'
+        mixColor: '#fff', // default: '#fff'
+        backgroundColor: '#fff',  // default: '#fff'
+        buttonColorDark: '#100f2c',  // default: '#100f2c'
+        buttonColorLight: '#fff', // default: '#fff'
+        saveInCookies: true, // default: true,
+        label: '🌓', // default: ''
+        autoMatchOsTheme: true // default: true
+      }
+      
+      const darkmode = new Darkmode(options);
+      darkmode.showWidget();
+    </script>
+</body>
+</html>
