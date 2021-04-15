@@ -144,7 +144,14 @@
       darkmode.showWidget();
     </script>
 
-    
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+    <script>
 
-</body>
+      gsap.from('h1', {opacity:0, duration: 1.5, y: -100, ease: Power4.easeOut})
+      gsap.from('h5', {opacity:0, duration: 2, y: -200, ease: Power4.easeOut})
+      gsap.from('header', {opacity:0, duration: 2, x: -100, ease: Power4.easeOut})
+
+    </script>
+
+  </body>
 </html>
