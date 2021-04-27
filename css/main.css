@@ -68,6 +68,15 @@ li a:hover{
 
 }
 
+.darkmode--activated .sidebar{
+  background-color: rgb(255, 83, 83);
+
+}
+
+.darkmode--activated .cursor{
+  border: 1.5px solid white;
+}
+
 h4 {
     font-weight: 1000;
     color: #000;
@@ -160,7 +169,7 @@ h5 {
       .skills {
         text-align: right;
         padding: 10px 5px;
-        color: white;
+        color: black;
         border-radius: 25px;
       }
       
