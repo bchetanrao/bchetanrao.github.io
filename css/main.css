@@ -9,7 +9,7 @@ body,html{
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    background-color: rgb(241, 241, 241);
+    background-color: #e4e4e4;
 }
 body {
     font-family: 'Poppins',sans-serif;
@@ -39,6 +39,7 @@ body {
 }
 .darkmode--activated .zedge{
   filter: invert();
+  box-shadow: none;
 }
 .zedge:hover{
   filter: invert(55%) sepia(29%) saturate(4969%) hue-rotate(327deg) brightness(100%) contrast(101%);
@@ -86,7 +87,7 @@ li a:hover{
 }
 
 .darkmode--activated li a:hover{
-  border-bottom: 2px solid rgb(255, 255, 255);
+  border-bottom: 2px solid #ff5353;
 
 }
 
@@ -298,7 +299,8 @@ h5 {
 
       img {
           /*display: block;*/
-          box-shadow: 20px 15px 20px 5px rgba(0, 0, 0,0.4);
+          box-shadow: 20px 20px 40px rgb(160, 160, 160),
+          -20px -20px 30px  rgb(255, 255, 255);
           /*margin: 3em 32%;*/
           height: 41em; width: auto;
           z-index: 0;
@@ -316,9 +318,10 @@ h5 {
       }
 
       .darkmode--activated img{
-        box-shadow: 20px 15px 20px 5px rgba(255, 255, 255,0.1);
+        box-shadow: 20px 20px 50px rgb(0, 0, 0),
+        -10px -10px 50px rgb(53, 53, 53);
       }
-      
+
       /* Slideshow container */
       .slideshow-container {
         max-width: 100%;
