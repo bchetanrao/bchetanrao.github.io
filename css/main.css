@@ -9,7 +9,7 @@ body,html{
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    background-color: #e4e4e4;
+    background-color: #f3f3f3;
 }
 body {
     font-family: 'Poppins',sans-serif;
@@ -127,7 +127,7 @@ p {
   top: 30%;
   left: 0%;
   width: 100%;
-  background-color: rgb(255, 83, 83);
+  background-color: rgb(255, 77, 77);
 }
 
 
@@ -299,7 +299,7 @@ h5 {
 
       img {
           /*display: block;*/
-          box-shadow: 20px 20px 40px rgb(160, 160, 160),
+          box-shadow: 20px 20px 50px rgb(73, 73, 73),
           -20px -20px 30px  rgb(255, 255, 255);
           /*margin: 3em 32%;*/
           height: 41em; width: auto;
@@ -344,10 +344,21 @@ h5 {
         border-radius: 0 3px 3px 0;
         user-select: none;
       }
+
+      .prev:hover{
+        color: #ff5353;
+      }
+      .next:hover{
+        color: #ff5353;
+      }
       
       .darkmode--activated .prev, .darkmode--activated .next{
           color: white;
       }
+
+      .darkmode--activated .prev:hover, .darkmode--activated .next:hover{
+        color: #ff5353;
+    }
       /* Position the "next button" to the right */
       .next {
         right: 0;
@@ -570,7 +581,7 @@ h5 {
         }
         .sidebar{
           width: 2px;
-          height: 50px;
+          height: 70px;
         }
         .square{
           height: 16em;
@@ -590,7 +601,7 @@ h5 {
           font-size: 3em;
         }
         h3{
-          font-size: 2em;
+          font-size: 1.5em;
         }
         h2{
           font-size: 2.5em;
@@ -640,7 +651,7 @@ h5 {
         }
         .sidebar{
           width: 2px;
-          height: 50px;
+          height: 70px;
         }
         header{
           font-size: 1em;
@@ -724,7 +735,7 @@ h5 {
         }
         .sidebar{
           width: 2px;
-          height: 50px;
+          height: 60px;
         }
         .cursor{
           display: none;
@@ -735,13 +746,16 @@ h5 {
         }
         
         h1{
-          font-size: 2.9em;
+          font-size: 2.4em;
         }
         h3{
           font-size: 1.3em;
         }
         h2{
           font-size: 2.5em;
+        }
+        h5{
+          font-size: 0.5em;
         }
         p{
           font-size: 1rem;
