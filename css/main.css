@@ -329,8 +329,17 @@ h5 {
         margin: 0 10%;
       }
       
+      .mail{
+        text-decoration: none;
+        color:black; 
+        font-weight: bold;
+        transition: 0.25s;
+      }
       a.mail:hover{
         color:#ff5353;
+      }
+      .darkmode--activated .mail:hover{
+        mix-blend-mode: difference;
       }
       /* Next & previous buttons */
       .prev, .next {
