@@ -329,9 +329,12 @@ h5 {
         margin: 0 10%;
       }
       
+      a.mail:hover{
+        color:#ff5353;
+      }
       /* Next & previous buttons */
       .prev, .next {
-        cursor: pointer;
+        cursor: none;
         position: absolute;
         top: 2.5em;
         width: auto;
