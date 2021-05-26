@@ -58,6 +58,15 @@ header{
     color: white;isolation: isolate;
 }
 
+header a{
+  text-decoration: none;
+  color: #000;
+}
+
+.darkmode--activated header a{
+  color: white;
+}
+
 li{
     list-style-type: none;
     display: inline-block;
