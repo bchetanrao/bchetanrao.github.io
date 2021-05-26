@@ -37,12 +37,22 @@ ul{
 p{
     font-size: 1.5rem;
 }
+h1{
+  font-family:'Playfair Display',serif;
+   font-weight: 500; 
+   font-size: 7rem;
+}
 h2{
     font-size: 5rem;
     font-family:'Playfair Display',serif;
     font-weight: 500;
 }
-
+h5 {
+  font-size: 1em;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
 .bar {
     width: auto;
     border-radius:25px;
@@ -157,4 +167,260 @@ footer{
       /*margin: 3em 32%;*/
       height: 41em; width: auto;
       z-index: 0;
+  }
+
+
+  @media all and (max-width: 800px){
+    .square{
+      height: 30em;
+      width: auto;
+      margin-top: 12%;
+    }
+    img{
+      margin-top: 0%;
+    }
+  }
+
+  @media all and (max-width: 600px){
+    h4{
+      display: none;
+    }
+    ul{
+      width: auto;
+      margin: 5% auto;
+      padding: 0%;
+      text-align: right;
+    }
+    
+    li a{
+      margin: 0;
+      font-size: 0.8em;
+      float: left;
+    }
+    h1{
+      font-size: 4em;
+    }
+    h2{
+      font-size: 3.5em;
+    }
+    h3{
+      padding-top: 3em;
+      font-size: 2em;
+    }
+    h5{
+      font-size: 0.7em;
+    }
+    section:nth-of-type(2){
+      height: 100%;
+    }
+    section:nth-of-type(3){
+      height: 100vh;
+    }
+    p{
+      font-size: 1.2em;
+    }
+    .bar{
+      max-width: auto;
+      font-size: 1em;
+      height: 2em;
+      margin: 2em 0;
+      margin-top: 0.1rem;
+    }
+    .skills{
+      font-size: 1em;
+      height: 2em;
+    }
+    .html, .css, .js, .ai{
+      font-size: 1em;
+      padding: 0.2em;
+    }
+    .slideshow-container{
+      height: 45%;
+    }
+    .mySlides{
+      margin: 1em 0;
+      display: inline-block;
+      text-align: center;
+      top: 50%;
+    }
+    .prev, .next{
+      font-size: 3em;
+      padding: 0em;
+      top: 55%;
+    }
+    img{
+      height: 25em;
+      width: auto;
+      margin: 0;
+      box-shadow: 10px 10px 25px 2px rgba(0, 0, 0,0.4);
+
+    }
+    .square{
+      height: 22em;
+      width: auto;
+    }
+    h6{
+      font-size: 0.7em;
+      margin-left: 0%;
+      letter-spacing: 0.5em;
+      font-weight: bold;
+    }
+  }
+
+  @media all and (max-width: 500px){
+    .square{
+      height: 17em;
+      width: auto;
+      margin: 7%;
+    }
+    h1{
+      font-size: 3.2em;
+    }
+    
+  }
+
+  @media all and (max-width: 420px){
+    .square{
+      margin-top: 25%;
+    }
+    img{
+      margin-top: 7%;
+    }
+  }
+
+  @media all and (max-width: 400px){
+    
+    .square{
+      height: 16em;
+      width: auto;
+    }
+    
+    li a{
+      margin: 0%;padding: 0%;
+    }
+    h1{
+      font-size: 3em;
+    }
+    h3{
+      font-size: 1.5em;
+    }
+    h2{
+      font-size: 2.5em;
+    }
+    p{
+      font-size: 1.1rem;
+    }
+    .slideshow-container{
+      margin-top: 2.5em;
+    }
+    .mySlides{
+      margin: 1em 0;
+    }
+    .prev, .next{
+      top: 45%;
+    }
+    
+    section:nth-of-type(3){
+      height: 100vh;
+    }
+
+  }
+
+  @media all and (max-width: 376px){
+    
+    
+    h1{
+      font-size: 2.7em;
+    }
+    h3{
+      font-size: 1.5em;
+    }
+    h2{
+      font-size: 2.5em;
+    }
+    p{
+      font-size: 1rem;
+    }
+    .slideshow-container{
+      margin-top: 2.5em;
+    }
+    .mySlides{
+      margin: 1em 0;
+    }
+    .prev, .next{
+      top: 45%;
+    }
+   
+    section:nth-of-type(3){
+      height: 100vh;
+    }
+    img{
+      height: 20em; width: auto;
+      margin-top: 0;
+    }
+    .square{
+      height: 15em;
+      width: auto;
+      margin-top: 10%;
+    }
+    .bar{
+      font-size: 0.7em;
+    }
+  }
+ 
+  @media all and (max-width: 330px){
+    .square{
+      height: 12em;
+      width: auto;
+      margin-top: 10%;
+    }
+    img{
+      height: 17em;
+      margin-top: 0%;
+    }
+  }
+
+  @media all and (max-width: 300px){
+    
+    
+    h1{
+      font-size: 2.4em;
+    }
+    h3{
+      font-size: 1.3em;
+    }
+    h2{
+      font-size: 2.5em;
+    }
+    h5{
+      font-size: 0.5em;
+    }
+    p{
+      font-size: 1rem;
+    }
+    .slideshow-container{
+      margin-top: 2.5em;
+    }
+    .mySlides{
+      margin: 1em 0;
+    }
+    .prev, .next{
+      top: 45%;
+      font-size: 2em;
+    }
+    
+    section:nth-of-type(3){
+      height: 100vh;
+    }
+    img{
+      height: 17em; width: auto;
+    }
+    .square{
+      height: 12.5em;
+      width: auto;
+      margin-top: 8%;
+    }
+    .bar{
+      font-size: 0.7em;
+    }
   }
