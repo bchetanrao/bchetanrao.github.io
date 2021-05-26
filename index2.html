@@ -4,44 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./scss/mains.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <title>B Chetan Rao</title>
 </head>
-<body >
-  <div class="cursor"></div>
-    <header>
-        <h4 style="font-family: 'Playfair Display', serif; text-transform: none; font-size: 1.3em; margin: auto 0;"><a href="index2.html" style="text-decoration: none; color: black;"> Arkarios07</a></h4>
-        <ul>
-            <li><a href="#About">About </a></li>
-            <li><a href="#My Work"> Work</a></li>
-            <li><a href="#My Skills"> Skills</a></li>
-        </ul>
-    </header>
-    <div class="icons">
-      <ul>
-        <li><a href="https://www.facebook.com/people/Chetan-Rao/100006933079498/" class="fa fa-facebook"></a></li>
-        <li><a href="https://www.instagram.com/chetanrao_7" class="fa fa-instagram"></a></li>
-        <li><a href="https://github.com/bchetanrao" class="fa fa-github"></a></li>
-        <li><a href="https://ugc.test.zedge.net/profile/7b9de819-ee75-42a8-9fad-11db12efc0a6" ><img src="./SVG/zedge_icon.svg" alt="" class="zedge"></a></li>
+<body>
+
+<section>
+  <nav role="navigation" class="default pink darken-4">
+    <div class="nav-wrapper pink darken-4 container">
+      <a href="index.html" class="brand-logo" style="font-family:'Playfair Display',serif; font-weight: 500;">Arkarios07</a>
+      
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons pink darken-4">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#About">About</a></li>
+        <li><a href="#Work">Work</a></li>
+        <li><a href="#Skills">Skills</a></li>
       </ul>
-      <div class="sidebar"></div>
     </div>
-    <section>
-      <div class="textbox noisy">
-        <h3>Hi, I'm</h3>
-        <h1>B Chetan Rao</h1>
-        <h5>UI & Graphic Designer and Frontend Developer</h5></div>
-    </section>
-    <section id="About">
-        <h2>About Me</h2>
-        <p>I am B Chetan Rao, a student at IIIT Allahabad. I started coding in December 2019 and i am a self-taught developer.
-          I have a passion for making modern looking designs and websites. I am interested in web design, graphic design and frontend development and am well versed with the professional tools used for these. 
-          I am always interested in taking up a challenge, reach out to me at<span><a class="mail" href="mailto:chetanraocr7@gmail.com"> chetanraocr7@gmail.com</a></span> to connect. </p>
-        </section>
-    <section id="My Work">
-        <h2>My Work</h2>
-        <h6>graphic designs</h6>
+  
+    <ul class="sidenav" id="mobile-demo">
+      <li><a class=" white pink-text text-darken-4" href="#About">About</a></li>
+      <li><a class=" white pink-text text-darken-4" href="#Work">Work</a></li>
+      <li><a class=" white pink-text text-darken-4" href="#Skills">Skills</a></li>
+    </ul>
+  </nav>
+
+  <div class="textbox">
+      <div class="container">
+    <h3>Hi, I'm</h3>
+    <h1 style="font-family:'Playfair Display',serif; font-weight: 500; font-size: 7rem;">B Chetan Rao</h1>
+    <h5 class="pink-text text-darken-4" style="font-weight: bold;">UI & Graphic Designer and Frontend Developer</h5></div></div>
+</section>
+
+<section id="About">
+    <div class="container">
+    <h2>About Me</h2>
+    <p>I am B Chetan Rao, a student at IIIT Allahabad. I started coding in December 2019 and i am a self-taught developer.
+      I have a passion for making modern looking designs and websites. I am interested in web design, graphic design and frontend development and am well versed with the professional tools used for these. 
+      I am always interested in taking up a challenge, reach out to me at<span ><a class="pink-text text-darken-4" style="font-weight: bold;" href="mailto:chetanraocr7@gmail.com"> chetanraocr7@gmail.com</a></span> to connect. </p>
+    </div>
+</section>
+
+<section id="Work">
+  <div class="container">
+    <h2>My Work</h2>
+    <h6>graphic designs</h6>
         <div class="slideshow-container">
 
           <div class="mySlides fade">
@@ -150,69 +163,65 @@
               dots[slideIndex-1].className += " active";
             }
             </script>
+  </div>
+</section>
 
-            
+<section id="Skills">
+  <div class="container">
+    <h2>My Skills</h2>
+    <h6>HTML</h6><div class="bar pink lighten-4  ">
+      <div class="skills pink darken-3 html  "> </div>
+    </div>
+    <h6>CSS</h6><div class="bar pink lighten-4 ">
+      <div class="skills pink darken-3 css " > </div>
+    </div>
+    <h6>JS</h6><div class="bar pink lighten-4 ">
+      <div class="skills pink darken-3 js "> </div>
+    </div>
+    <h6>ADOBE ILLUSTRATOR</h6><div class="bar pink lighten-4 ">
+      <div class="skills pink darken-3 ai "> </div>
+    </div>
+    <h6>C/C++</h6><div class="bar pink lighten-4 ">
+      <div class="skills pink darken-3 c "> </div>
+    </div>
+  </div>
+</section>
 
-    </section>
-    
-    <section id="My Skills">
-        <h2>My Skills</h2>
-        <h6>HTML</h6><div class="bar  ">
-            <div class="skills darkmode-ignore html noisy "> </div>
-          </div>
-          <h6>CSS</h6><div class="bar ">
-            <div class="skills darkmode-ignore css noisy" > </div>
-          </div>
-          <h6>JS</h6><div class="bar ">
-            <div class="skills darkmode-ignore js noisy"> </div>
-          </div>
-          <h6>ADOBE ILLUSTRATOR</h6><div class="bar ">
-            <div class="skills darkmode-ignore ai noisy"> </div>
-          </div>
-          <h6>C/C++</h6><div class="bar ">
-            <div class="skills darkmode-ignore c noisy"> </div>
-          </div>
-    </section>
-    <script>
-      const cursor = document.querySelector('.cursor');
+<footer class="page-footer pink darken-4">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="amber-text text-lighten-5">Footer Content</h5>
+        <p class="amber-text text-lighten-5" style="font-size: 1rem;">This is my portfolio website made using Google's Material Design. Check out my original website here.</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="amber-text text-lighten-5"></h5><br>
+        <ul>
+          <li><a href="https://bchetanrao.github.io/" ><i class="material-icons amber-text text-lighten-5 left valign-wrapper">link</i>Link to my original website </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    © 2014 Copyright Text
+    </div>
+  </div>
+</footer>
 
-      document.addEventListener('mousemove', e=> {
-          cursor.setAttribute("style", "top: "+(e.pageY-10)+"px; left: "+(e.pageX-10)+"px;")
-      })
-  </script>
-    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-    <script> options = {
-        bottom: '64px', // default: '32px'
-        right: 'unset', // default: '32px'
-        left: '32px', // default: 'unset'
-        time: '0.7s', // default: '0.3s'
-        mixColor: '#cccccc', // default: '#fff'
-        backgroundColor: '#fff',  // default: '#fff'
-        buttonColorDark: '#100f2c',  // default: '#100f2c'
-        buttonColorLight: '#fff', // default: '#fff'
-        saveInCookies: true, // default: true,
-        label: '🌓', // default: ''
-        autoMatchOsTheme: true // default: true
-      }
-      
-      const darkmode = new Darkmode(options);
-      darkmode.showWidget();
-    </script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, {edge: 'right'});
+  });
 
-    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
-    <script>
+  // Or with jQuery
 
-      gsap.from('h1', {opacity:0, duration: 2, y: -200, ease: Power4.easeOut})
-      gsap.from('h3', {opacity:0, duration: 1.5, y: -150, ease: Power4.easeOut})
-      gsap.from('h5', {opacity:0, duration: 2, y: -200, ease: Power4.easeOut})
-      gsap.from('header', {opacity:0, duration: 2, x: -100, ease: Power4.easeOut})
-      gsap.from('.fa-facebook', {opacity:0, duration: 3, y: 500, ease: Power4.easeOut})
-      gsap.from('.fa-instagram', {opacity:0, duration: 3.5, y: 500, ease: Power4.easeOut})
-      gsap.from('.fa-github', {opacity:0, duration: 4, y: 500, ease: Power4.easeOut})
-      gsap.from('.zedge', {opacity:0, duration: 4.5, y: 500, ease: Power4.easeOut})
-      gsap.from('.sidebar', {opacity:0, duration: 5, y: 500, ease: Power4.easeOut})
-
-    </script>
-
-  </body>
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+</script>
+</body>
 </html>
