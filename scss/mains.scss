@@ -109,11 +109,14 @@ footer{
         color: #f8bbd0;
     }
 }
+section:nth-of-type(3){
+  height: 100%;
+}
 /* Slideshow container */
 .slideshow-container {
     max-width: 100%;
     position: relative;
-    margin: 0 10%;
+    margin: 0% 10%;
   }
   .prev, .next {
     cursor: pointer;
