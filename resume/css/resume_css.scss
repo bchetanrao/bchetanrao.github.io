@@ -4,16 +4,22 @@ $special-color: #F6C90E;
 $text-color: #EEEEEE;
 $border-color: #4c5c68;
 
+html{
+    background-color: $base-color;
+}
 body{
     font-family: 'Raleway', sans-serif;
     margin: 5%;
     background-color: $base-color;
 }
-
 h1{
     font-size: 4rem;
     color: $special-color;
-    margin: 0;padding: 0;
+    margin: 0%;padding: 0;
+    a{
+        text-decoration: none;
+        color: $special-color;
+    }
 }
 h2{
     font-size: 2.5rem;
@@ -62,7 +68,9 @@ h5{
     border-bottom: solid 0.2px $border-color;
     line-height: 1.6;
 }
-
+.row{
+    height: 100%;
+}
 .col{
     width: 50%;
     float: left;
@@ -113,6 +121,7 @@ h5{
     // }
 
 }
+
 .education{
     margin: 5% 0;
     .cluster{
@@ -173,5 +182,11 @@ h5{
     }
     .experience{
         width: 100%;
+    }
+}
+@media print {
+    tr.vendorListHeading {
+        background-color: $base-color !important;
+        -webkit-print-color-adjust: exact; 
     }
 }

@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;800&display=swap");
+html {
+  background-color: #303841;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   margin: 5%;
@@ -8,8 +12,13 @@ body {
 h1 {
   font-size: 4rem;
   color: #F6C90E;
-  margin: 0;
+  margin: 0%;
   padding: 0;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #F6C90E;
 }
 
 h2 {
@@ -68,6 +77,10 @@ h5 {
   width: 70%;
   border-bottom: solid 0.2px #4c5c68;
   line-height: 1.6;
+}
+
+.row {
+  height: 100%;
 }
 
 .col {
@@ -193,6 +206,13 @@ h5 {
   }
   .experience {
     width: 100%;
+  }
+}
+
+@media print {
+  tr.vendorListHeading {
+    background-color: #303841 !important;
+    -webkit-print-color-adjust: exact;
   }
 }
 /*# sourceMappingURL=resume_css.css.map */
