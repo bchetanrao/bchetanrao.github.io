@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;800&display=swap");
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 5%;
+  background-color: #303841;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #F6C90E;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #F6C90E;
+  padding-bottom: 1rem;
+  border-bottom: solid 2px #F6C90E;
+  width: 80%;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #EEEEEE;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin: 1% 0;
+  color: #F6C90E;
+}
+
+h5 {
+  font-size: .9rem;
+  margin: 1% 0;
+  font-weight: 400;
+  color: #EEEEEE;
+}
+
+.techstack {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.bubble {
+  margin: 1% 2% 1% 0;
+  padding: 1% 2%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  min-width: 3%;
+  border: solid 0.5px #EEEEEE;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.cluster {
+  margin: 1% 0;
+  width: 70%;
+  border-bottom: solid 0.2px #4c5c68;
+  line-height: 1.6;
+}
+
+.col {
+  width: 50%;
+  float: left;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: 'Raleway', sans-serif;
+}
+
+.contact h5 {
+  font-size: 1rem;
+  margin: 1% 0;
+  font-weight: 400;
+  color: #EEEEEE;
+  padding-right: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+.contact a {
+  text-decoration: none;
+  font-weight: 400;
+  color: #EEEEEE;
+}
+
+.contact a:hover {
+  color: #F6C90E;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contact i {
+  color: #EEEEEE;
+  margin: 1% 2% 1% 0;
+}
+
+.contact i a {
+  font-family: 'Raleway',sans-serif;
+  padding-left: 0.5rem;
+}
+
+.contact i span {
+  font-family: 'Raleway',sans-serif;
+  padding-left: 0.5rem;
+  font-weight: 400;
+}
+
+.contact i:hover {
+  color: #F6C90E;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.education {
+  margin: 5% 0;
+}
+
+.education .cluster {
+  padding-bottom: 2%;
+}
+
+.experience {
+  margin: 5% 0;
+  width: 80%;
+}
+
+.projects {
+  margin: 5% 0;
+}
+
+.projects a {
+  text-decoration: none;
+  font-weight: 800;
+  color: #F6C90E;
+}
+
+.projects a:hover {
+  color: #EEEEEE;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media all and (max-width: 480px) {
+  .col {
+    width: 100%;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.7rem;
+    width: 100%;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  h5 {
+    font-size: 0.8rem;
+  }
+  i {
+    font-size: 0.7rem;
+  }
+  i a {
+    font-size: .7rem;
+  }
+  i span {
+    font-size: 0.7rem;
+  }
+  body {
+    line-height: 1.6;
+  }
+  .cluster {
+    width: 100%;
+  }
+  .experience {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=resume_css.css.map */

@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;800&display=swap');
+$base-color: #303841;
+$special-color: #F6C90E;
+$text-color: #EEEEEE;
+$border-color: #4c5c68;
+
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 5%;
+    background-color: $base-color;
+}
+
+h1{
+    font-size: 4rem;
+    color: $special-color;
+    margin: 0;padding: 0;
+}
+h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: $special-color;
+    padding-bottom: 1rem;
+    border-bottom: solid 2px $special-color;
+    width: 80%;
+}
+h3{
+    font-size: 1rem;
+    font-weight: 500;
+    color: $text-color;
+    margin: 0;
+}
+h4{
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin: 1% 0;
+    color: $special-color;
+}
+h5{
+    font-size: .9rem;
+    margin: 1% 0;
+    font-weight: 400;
+    color: $text-color;
+}
+.techstack{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.bubble{
+    margin: 1% 2% 1% 0;
+    padding: 1% 2%;
+    width: fit-content;
+    min-width: 3%;
+    border: solid 0.5px $text-color;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    font-weight: 800;
+    text-align: center;
+}
+.cluster{
+    margin: 1% 0;
+    width: 70%;
+    border-bottom: solid 0.2px $border-color;
+    line-height: 1.6;
+}
+
+.col{
+    width: 50%;
+    float: left;
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Raleway', sans-serif;
+    h5{
+        font-size: 1rem;
+        margin: 1% 0;
+        font-weight: 400;
+        color: $text-color;
+        padding-right: 2rem;
+        letter-spacing: 0.1rem;
+    }
+    a{
+        text-decoration: none;
+        font-weight: 400;
+        color: $text-color;
+    }
+    a:hover{
+        color: $special-color;
+        transition: 0.3s;
+    }
+    
+    i{
+        // font-size: 1.2rem;
+        color: $text-color;
+        margin: 1% 2% 1% 0;
+        a{
+            font-family: 'Raleway',sans-serif;
+            padding-left: 0.5rem;
+        }
+        span{
+            font-family: 'Raleway',sans-serif;
+            padding-left: 0.5rem;
+            font-weight: 400;
+        }
+        &:hover{
+            color: $special-color;
+            transition: 0.3s;
+        }
+    }
+    // .fas{
+    //     font-size: 1rem;
+    //     margin-right: 1%;
+    // }
+
+}
+.education{
+    margin: 5% 0;
+    .cluster{
+        padding-bottom: 2%;
+    }
+}
+.experience{
+    margin: 5% 0;
+    width: 80%;
+}
+.projects{
+    margin: 5% 0;
+    a{
+        text-decoration: none;
+        font-weight: 800;
+        color: $special-color;
+    }
+    a:hover{
+        color: $text-color;
+        transition: 0.3s;
+    }
+}
+
+@media all and (max-width: 480px){
+    .col{
+        width: 100%;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 1.7rem;
+        width: 100%;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    h4{
+        font-size: 1rem;
+    }
+    h5{
+        font-size: 0.8rem;
+    }
+    i{
+        font-size: 0.7rem;
+        a{
+            font-size: .7rem;
+        }
+        span{
+            font-size: 0.7rem;
+        }
+    }
+    body{
+        line-height: 1.6;
+    }
+    .cluster{
+        width: 100%;
+    }
+    .experience{
+        width: 100%;
+    }
+}
