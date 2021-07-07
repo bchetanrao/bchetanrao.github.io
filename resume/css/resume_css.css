@@ -100,16 +100,26 @@ h5 {
 }
 
 .cluster {
-  margin: 1% 0;
+  margin: 2% 0;
   width: 70%;
   border-bottom: solid 1px #393E46;
 }
 
 .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   height: 100%;
 }
 
 .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 50%;
   float: left;
 }
@@ -197,7 +207,30 @@ h5 {
   transition: 0.3s;
 }
 
+.note h5 {
+  padding-top: 2rem;
+}
+
+.note span {
+  color: #FFD369;
+  font-weight: 800;
+}
+
+.note a {
+  text-decoration: none;
+  color: #FFD369;
+}
+
 @media all and (max-width: 480px) {
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .col {
     width: 100%;
   }
@@ -206,6 +239,9 @@ h5 {
   }
   h1 i {
     font-size: 1.8rem;
+  }
+  h1 i:hover {
+    font-size: 2rem;
   }
   h2 {
     font-size: 1.7rem;
