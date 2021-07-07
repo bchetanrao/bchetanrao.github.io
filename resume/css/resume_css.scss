@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;800&display=swap');
-$base-color: #303841;
-$special-color: #F6C90E;
+$base-color: #222831;
+$special-color: #FFD369;
 $text-color: #EEEEEE;
-$border-color: #4c5c68;
+$border-color: #393E46;
 
 html{
     background-color: $base-color;
@@ -26,6 +26,11 @@ h1{
     }
     i{
         font-size: 3rem;
+        transition: 0.5s;
+        transition-timing-function: ease;
+        &:hover{
+            font-size: 3.5rem;
+        }
     }
 }
 h2{
@@ -67,7 +72,7 @@ h5{
     padding: 1% 2%;
     width: fit-content;
     min-width: 3%;
-    border: solid 0.5px $text-color;
+    border: solid 1.6px $text-color;
     border-radius: 10px;
     font-size: 0.7rem;
     font-weight: 800;
@@ -76,7 +81,7 @@ h5{
 .cluster{
     margin: 1% 0;
     width: 70%;
-    border-bottom: solid 0.2px $border-color;
+    border-bottom: solid 1px $border-color;
 }
 .row{
     height: 100%;
@@ -104,7 +109,8 @@ h5{
     }
     a:hover{
         color: $special-color;
-        transition: 0.3s;
+        transition: 0.5s;
+        transition-timing-function: ease;
     }
     
     i{

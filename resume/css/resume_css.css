@@ -1,18 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;800&display=swap");
 html {
-  background-color: #303841;
+  background-color: #222831;
 }
 
 body {
   font-family: 'Raleway', sans-serif;
   margin: 5%;
-  background-color: #303841;
+  background-color: #222831;
   line-height: 1.7;
 }
 
 h1 {
   font-size: 4rem;
-  color: #F6C90E;
+  color: #FFD369;
   margin: 0%;
   padding: 0;
   display: -webkit-box;
@@ -28,19 +28,27 @@ h1 {
 
 h1 a {
   text-decoration: none;
-  color: #F6C90E;
+  color: #FFD369;
 }
 
 h1 i {
   font-size: 3rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+}
+
+h1 i:hover {
+  font-size: 3.5rem;
 }
 
 h2 {
   font-size: 2.5rem;
   font-weight: 800;
-  color: #F6C90E;
+  color: #FFD369;
   padding-bottom: 1rem;
-  border-bottom: solid 2px #F6C90E;
+  border-bottom: solid 2px #FFD369;
   width: 80%;
 }
 
@@ -55,12 +63,12 @@ h4 {
   font-size: 1.2rem;
   font-weight: 800;
   margin: 1% 0;
-  color: #F6C90E;
+  color: #FFD369;
 }
 
 h4 a {
   text-decoration: none;
-  color: #F6C90E;
+  color: #FFD369;
 }
 
 h5 {
@@ -84,7 +92,7 @@ h5 {
   width: -moz-fit-content;
   width: fit-content;
   min-width: 3%;
-  border: solid 0.5px #EEEEEE;
+  border: solid 1.6px #EEEEEE;
   border-radius: 10px;
   font-size: 0.7rem;
   font-weight: 800;
@@ -94,7 +102,7 @@ h5 {
 .cluster {
   margin: 1% 0;
   width: 70%;
-  border-bottom: solid 0.2px #4c5c68;
+  border-bottom: solid 1px #393E46;
 }
 
 .row {
@@ -131,9 +139,11 @@ h5 {
 }
 
 .contact a:hover {
-  color: #F6C90E;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  color: #FFD369;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
 }
 
 .contact i {
@@ -153,7 +163,7 @@ h5 {
 }
 
 .contact i:hover {
-  color: #F6C90E;
+  color: #FFD369;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -178,7 +188,7 @@ h5 {
 .projects a {
   text-decoration: none;
   font-weight: 800;
-  color: #F6C90E;
+  color: #FFD369;
 }
 
 .projects a:hover {
@@ -232,7 +242,7 @@ h5 {
 
 @media print {
   tr.vendorListHeading {
-    background-color: #303841 !important;
+    background-color: #222831 !important;
     -webkit-print-color-adjust: exact;
   }
   h1 i {
