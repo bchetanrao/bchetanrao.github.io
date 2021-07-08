@@ -109,6 +109,9 @@ h5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 100%;
 }
 
@@ -207,6 +210,11 @@ h5 {
   transition: 0.3s;
 }
 
+.note {
+  display: none;
+  padding-top: 5rem;
+}
+
 .note h5 {
   padding-top: 2rem;
 }
@@ -283,6 +291,9 @@ h5 {
   }
   h1 i {
     visibility: hidden;
+  }
+  .note {
+    display: block;
   }
 }
 /*# sourceMappingURL=resume_css.css.map */
