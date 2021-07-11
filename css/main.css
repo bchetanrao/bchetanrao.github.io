@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 *{
   box-sizing: border-box;
@@ -129,6 +130,7 @@ p {
     font-size: 20px;
     margin: 0 10%;
     padding-bottom: 2em;
+    font-weight: 400;
 }
 
 .textbox{
@@ -174,7 +176,10 @@ h3 {
 }
 
 
-
+.work_h6{
+  margin: 0 10%;
+  font-weight: 400;
+}
 
 
 h5 {
@@ -224,7 +229,7 @@ h5 {
         letter-spacing: 7px;
         text-align: center;
         cursor: pointer;
-        font-weight: bold;
+        font-weight: 400;
         z-index: 10;
       }
 
@@ -334,7 +339,7 @@ h5 {
         font-size: 1em;
         margin: 0.5% 12%;
         letter-spacing: 0.7em;
-        font-weight: bold;
+        font-weight: 400;
         text-transform: uppercase;
       }
 
@@ -359,7 +364,7 @@ h5 {
       a.mail:hover{
         color:#ff5353;
       }
-      .darkmode--activated .mail:hover{
+      .darkmode--activated .mail:hover,.resume:hover{
         mix-blend-mode: difference;
       }
       /* Next & previous buttons */
@@ -564,7 +569,7 @@ h5 {
           font-size: 0.7em;
           margin-left: 13%;
           letter-spacing: 0.5em;
-          font-weight: bold;
+          font-weight: 400;
         }
         .dot{
           margin: 10em 0;
