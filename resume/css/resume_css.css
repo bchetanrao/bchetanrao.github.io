@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600;700;900&display=swap");
 html {
-  background-color: #EEEEEE;
+  background-color: #ffffff;
 }
 
 body {
   font-family: 'Raleway', sans-serif;
   margin: 5%;
-  background-color: #EEEEEE;
+  background-color: #ffffff;
   line-height: 1.7;
 }
 
@@ -278,7 +278,7 @@ h5 {
 
 @media print {
   tr.vendorListHeading {
-    background-color: #EEEEEE !important;
+    background-color: #ffffff !important;
     -webkit-print-color-adjust: exact;
   }
   h1 i {
