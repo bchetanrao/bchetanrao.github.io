@@ -1,18 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600;700;900&display=swap");
 html {
-  background-color: #222831;
+  background-color: #EEEEEE;
 }
 
 body {
   font-family: 'Raleway', sans-serif;
   margin: 5%;
-  background-color: #222831;
+  background-color: #EEEEEE;
   line-height: 1.7;
 }
 
 h1 {
   font-size: 4rem;
-  color: #FFD369;
+  font-weight: 900;
+  color: #F8485E;
   margin: 0%;
   padding: 0;
   display: -webkit-box;
@@ -28,7 +29,7 @@ h1 {
 
 h1 a {
   text-decoration: none;
-  color: #FFD369;
+  color: #F8485E;
 }
 
 h1 i {
@@ -45,37 +46,37 @@ h1 i:hover {
 
 h2 {
   font-size: 2.5rem;
-  font-weight: 800;
-  color: #FFD369;
+  font-weight: 900;
+  color: #F8485E;
   padding-bottom: 1rem;
-  border-bottom: solid 2px #FFD369;
+  border-bottom: solid 2px #F8485E;
   width: 80%;
 }
 
 h3 {
   font-size: 1rem;
-  font-weight: 500;
-  color: #EEEEEE;
+  font-weight: 700;
+  color: #512D6D;
   margin: 0;
 }
 
 h4 {
   font-size: 1.2rem;
-  font-weight: 800;
+  font-weight: 900;
   margin: 1% 0;
-  color: #FFD369;
+  color: #F8485E;
 }
 
 h4 a {
   text-decoration: none;
-  color: #FFD369;
+  color: #F8485E;
 }
 
 h5 {
-  font-size: .9rem;
+  font-size: 1rem;
   margin: 1% 0;
-  font-weight: 400;
-  color: #EEEEEE;
+  font-weight: 600;
+  color: #512D6D;
 }
 
 .techstack {
@@ -92,17 +93,17 @@ h5 {
   width: -moz-fit-content;
   width: fit-content;
   min-width: 3%;
-  border: solid 1.6px #EEEEEE;
+  border: solid 1.6px #512D6D;
   border-radius: 10px;
   font-size: 0.7rem;
-  font-weight: 800;
+  font-weight: 900;
   text-align: center;
 }
 
 .cluster {
   margin: 2% 0;
   width: 70%;
-  border-bottom: solid 1px #393E46;
+  border-bottom: solid 1px #00C1D4;
 }
 
 .row {
@@ -139,20 +140,20 @@ h5 {
 .contact h5 {
   font-size: 1rem;
   margin: 1% 0;
-  font-weight: 400;
-  color: #EEEEEE;
+  font-weight: 600;
+  color: #512D6D;
   padding-right: 2rem;
   letter-spacing: 0.1rem;
 }
 
 .contact a {
   text-decoration: none;
-  font-weight: 400;
-  color: #EEEEEE;
+  font-weight: 600;
+  color: #512D6D;
 }
 
 .contact a:hover {
-  color: #FFD369;
+  color: #F8485E;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   -webkit-transition-timing-function: ease;
@@ -160,7 +161,7 @@ h5 {
 }
 
 .contact i {
-  color: #EEEEEE;
+  color: #512D6D;
   margin: 1% 2% 1% 0;
 }
 
@@ -176,13 +177,9 @@ h5 {
 }
 
 .contact i:hover {
-  color: #FFD369;
+  color: #F8485E;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-}
-
-.education {
-  margin: 5% 0;
 }
 
 .education .cluster {
@@ -190,22 +187,17 @@ h5 {
 }
 
 .experience {
-  margin: 5% 0;
   width: 80%;
-}
-
-.projects {
-  margin: 5% 0;
 }
 
 .projects a {
   text-decoration: none;
-  font-weight: 800;
-  color: #FFD369;
+  font-weight: 900;
+  color: #F8485E;
 }
 
 .projects a:hover {
-  color: #EEEEEE;
+  color: #512D6D;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -220,13 +212,13 @@ h5 {
 }
 
 .note span {
-  color: #FFD369;
-  font-weight: 800;
+  color: #F8485E;
+  font-weight: 900;
 }
 
 .note a {
   text-decoration: none;
-  color: #FFD369;
+  color: #F8485E;
 }
 
 @media all and (max-width: 480px) {
@@ -286,7 +278,7 @@ h5 {
 
 @media print {
   tr.vendorListHeading {
-    background-color: #222831 !important;
+    background-color: #EEEEEE !important;
     -webkit-print-color-adjust: exact;
   }
   h1 i {
