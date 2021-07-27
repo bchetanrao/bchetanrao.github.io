@@ -153,18 +153,19 @@ h5{
         text-decoration: none;
         font-weight: 800;
         color: $special-color;
+        &:hover{
+            color: $text-color;
+            transition: 0.3s;
+        }
     }
-    a:hover{
-        color: $text-color;
-        transition: 0.3s;
-    }
+    
 }
 
 .note{
     display: none;
-    padding-top: 5rem;
+    padding-top: 2rem;
     h5{
-        padding-top: 2rem;
+        padding-top: 1rem;
     }
     span{
         color: $special-color;
