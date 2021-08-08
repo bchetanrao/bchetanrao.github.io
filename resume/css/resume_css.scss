@@ -3,6 +3,8 @@ $base-color: #ffffff;
 $special-color: #f8485e;
 $text-color: #512d6d;
 $border-color: #00c1d4;
+$link-color: #4895ef;
+$link-color-dark: #3f37c9;
 
 html {
 	background-color: $base-color;
@@ -41,7 +43,6 @@ h2 {
 	color: $special-color;
 	// padding-bottom: 0.5rem;
 	border-bottom: solid 2px $special-color;
-	width: 85%;
 }
 h3 {
 	font-size: 1rem;
@@ -67,7 +68,7 @@ h5 {
 }
 .techstack {
 	display: flex;
-	margin-bottom: 1rem;
+	margin: 0.7rem 0;
 }
 .bubble {
 	margin: 1% 2% 1% 0;
@@ -85,7 +86,7 @@ h5 {
 }
 .cluster {
 	margin: 2% 0;
-	width: 70%;
+	width: 100%;
 	border-bottom: solid 1px $border-color;
 }
 .row {
@@ -99,16 +100,18 @@ h5 {
 	width: 50%;
 	float: left;
 }
+.col:nth-of-type(1) {
+	margin-right: 4rem;
+}
 .contact {
 	display: flex;
 	flex-wrap: wrap;
 	font-family: "Raleway", sans-serif;
 	h5 {
 		font-size: 1rem;
-		margin: 1% 0;
+		margin-right: 2rem;
 		font-weight: 600;
 		color: $text-color;
-		padding-right: 2rem;
 		letter-spacing: 0.1rem;
 	}
 	a {
@@ -145,26 +148,28 @@ h5 {
 .education {
 	// margin: 5% 0;
 	.cluster {
-		padding-bottom: 2%;
+		padding-bottom: 1rem;
 	}
-}
-.experience {
-	// margin: 5% 0;
-	width: 80%;
 }
 .projects {
 	// margin: 5% 0;
 	a {
 		text-decoration: none;
-		font-weight: 900;
-		color: $special-color;
+		border-bottom: solid 1.5px $link-color;
+		font-weight: 700;
+		color: $link-color;
 		&:hover {
-			color: $border-color;
+			color: $link-color-dark;
+			border-bottom: solid 1.5px $link-color-dark;
 			transition: 0.3s;
 		}
 	}
 }
-
+.achievements {
+	.cluster {
+		padding-bottom: 0.5rem;
+	}
+}
 .note {
 	display: none;
 	padding-top: 2rem;
@@ -222,14 +227,25 @@ h5 {
 	body {
 		line-height: 1.6;
 	}
+	.contact {
+		h5 {
+			margin-right: 1rem;
+		}
+	}
 	.cluster {
 		width: 100%;
 	}
 	.experience {
 		width: 100%;
 	}
+	.achievements {
+		margin-bottom: 2rem;
+	}
 }
 @media print {
+	html {
+		font-size: 18px;
+	}
 	tr.vendorListHeading {
 		background-color: $base-color !important;
 		-webkit-print-color-adjust: exact;
@@ -241,5 +257,8 @@ h5 {
 	}
 	.note {
 		display: block;
+	}
+	.achievements {
+		margin-bottom: 0;
 	}
 }
