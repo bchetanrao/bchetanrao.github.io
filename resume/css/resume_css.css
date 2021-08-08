@@ -4,8 +4,8 @@ html {
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
-  margin: 5%;
+  font-family: "Raleway", sans-serif;
+  margin: 3% 5%;
   background-color: #ffffff;
   line-height: 1.7;
 }
@@ -13,7 +13,7 @@ body {
 h1 {
   font-size: 4rem;
   font-weight: 900;
-  color: #F8485E;
+  color: #f8485e;
   margin: 0%;
   padding: 0;
   display: -webkit-box;
@@ -29,7 +29,7 @@ h1 {
 
 h1 a {
   text-decoration: none;
-  color: #F8485E;
+  color: #f8485e;
 }
 
 h1 i {
@@ -47,16 +47,15 @@ h1 i:hover {
 h2 {
   font-size: 2.5rem;
   font-weight: 900;
-  color: #F8485E;
-  padding-bottom: 1rem;
-  border-bottom: solid 2px #F8485E;
-  width: 80%;
+  color: #f8485e;
+  border-bottom: solid 2px #f8485e;
+  width: 85%;
 }
 
 h3 {
   font-size: 1rem;
   font-weight: 700;
-  color: #512D6D;
+  color: #512d6d;
   margin: 0;
 }
 
@@ -64,19 +63,19 @@ h4 {
   font-size: 1.2rem;
   font-weight: 900;
   margin: 1% 0;
-  color: #F8485E;
+  color: #f8485e;
 }
 
 h4 a {
   text-decoration: none;
-  color: #F8485E;
+  color: #f8485e;
 }
 
 h5 {
   font-size: 1rem;
   margin: 1% 0;
   font-weight: 600;
-  color: #512D6D;
+  color: #512d6d;
 }
 
 .techstack {
@@ -93,17 +92,20 @@ h5 {
   width: -moz-fit-content;
   width: fit-content;
   min-width: 3%;
-  border: solid 1.6px #512D6D;
+  border: solid 1.6px #512d6d;
   border-radius: 10px;
   font-size: 0.7rem;
   font-weight: 900;
   text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .cluster {
   margin: 2% 0;
   width: 70%;
-  border-bottom: solid 1px #00C1D4;
+  border-bottom: solid 1px #00c1d4;
 }
 
 .row {
@@ -134,14 +136,14 @@ h5 {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .contact h5 {
   font-size: 1rem;
   margin: 1% 0;
   font-weight: 600;
-  color: #512D6D;
+  color: #512d6d;
   padding-right: 2rem;
   letter-spacing: 0.1rem;
 }
@@ -149,11 +151,11 @@ h5 {
 .contact a {
   text-decoration: none;
   font-weight: 600;
-  color: #512D6D;
+  color: #512d6d;
 }
 
 .contact a:hover {
-  color: #F8485E;
+  color: #f8485e;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   -webkit-transition-timing-function: ease;
@@ -161,23 +163,23 @@ h5 {
 }
 
 .contact i {
-  color: #512D6D;
+  color: #512d6d;
   margin: 1% 2% 1% 0;
 }
 
 .contact i a {
-  font-family: 'Raleway',sans-serif;
+  font-family: "Raleway", sans-serif;
   padding-left: 0.5rem;
 }
 
 .contact i span {
-  font-family: 'Raleway',sans-serif;
+  font-family: "Raleway", sans-serif;
   padding-left: 0.5rem;
   font-weight: 400;
 }
 
 .contact i:hover {
-  color: #F8485E;
+  color: #f8485e;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -193,11 +195,11 @@ h5 {
 .projects a {
   text-decoration: none;
   font-weight: 900;
-  color: #F8485E;
+  color: #f8485e;
 }
 
 .projects a:hover {
-  color: #512D6D;
+  color: #00c1d4;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -212,13 +214,13 @@ h5 {
 }
 
 .note span {
-  color: #F8485E;
+  color: #f8485e;
   font-weight: 900;
 }
 
 .note a {
   text-decoration: none;
-  color: #F8485E;
+  color: #f8485e;
 }
 
 @media all and (max-width: 480px) {
@@ -260,7 +262,7 @@ h5 {
     font-size: 0.7rem;
   }
   i a {
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
   i span {
     font-size: 0.7rem;

@@ -1,242 +1,245 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600;700;900&display=swap");
 $base-color: #ffffff;
-$special-color: #F8485E;
-$text-color: #512D6D;
-$border-color: #00C1D4;
+$special-color: #f8485e;
+$text-color: #512d6d;
+$border-color: #00c1d4;
 
-html{
-    background-color: $base-color;
+html {
+	background-color: $base-color;
 }
-body{
-    font-family: 'Raleway', sans-serif;
-    margin: 5%;
-    background-color: $base-color;
-    line-height: 1.7;
+body {
+	font-family: "Raleway", sans-serif;
+	margin: 3% 5%;
+	background-color: $base-color;
+	line-height: 1.7;
 }
-h1{
-    font-size: 4rem;
-    font-weight: 900;
-    color: $special-color;
-    margin: 0%;padding: 0;
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    a{
-        text-decoration: none;
-        color: $special-color;
-    }
-    i{
-        font-size: 3rem;
-        transition: 0.5s;
-        transition-timing-function: ease;
-        &:hover{
-            font-size: 3.5rem;
-        }
-    }
+h1 {
+	font-size: 4rem;
+	font-weight: 900;
+	color: $special-color;
+	margin: 0%;
+	padding: 0;
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	a {
+		text-decoration: none;
+		color: $special-color;
+	}
+	i {
+		font-size: 3rem;
+		transition: 0.5s;
+		transition-timing-function: ease;
+		&:hover {
+			font-size: 3.5rem;
+		}
+	}
 }
-h2{
-    font-size: 2.5rem;
-    font-weight: 900;
-    color: $special-color;
-    padding-bottom: 1rem;
-    border-bottom: solid 2px $special-color;
-    width: 80%;
+h2 {
+	font-size: 2.5rem;
+	font-weight: 900;
+	color: $special-color;
+	// padding-bottom: 0.5rem;
+	border-bottom: solid 2px $special-color;
+	width: 85%;
 }
-h3{
-    font-size: 1rem;
-    font-weight: 700;
-    color: $text-color;
-    margin: 0;
+h3 {
+	font-size: 1rem;
+	font-weight: 700;
+	color: $text-color;
+	margin: 0;
 }
-h4{
-    font-size: 1.2rem;
-    font-weight: 900;
-    margin: 1% 0;
-    color: $special-color;
-    a{
-        text-decoration: none;
-        color: $special-color;
-    }
+h4 {
+	font-size: 1.2rem;
+	font-weight: 900;
+	margin: 1% 0;
+	color: $special-color;
+	a {
+		text-decoration: none;
+		color: $special-color;
+	}
 }
-h5{
-    font-size: 1rem;
-    margin: 1% 0;
-    font-weight: 600;
-    color: $text-color;
+h5 {
+	font-size: 1rem;
+	margin: 1% 0;
+	font-weight: 600;
+	color: $text-color;
 }
-.techstack{
-    display: flex;
-    margin-bottom: 1rem;
+.techstack {
+	display: flex;
+	margin-bottom: 1rem;
 }
-.bubble{
-    margin: 1% 2% 1% 0;
-    padding: 1% 2%;
-    width: fit-content;
-    min-width: 3%;
-    border: solid 1.6px $text-color;
-    border-radius: 10px;
-    font-size: 0.7rem;
-    font-weight: 900;
-    text-align: center;
+.bubble {
+	margin: 1% 2% 1% 0;
+	padding: 1% 2%;
+	width: fit-content;
+	min-width: 3%;
+	border: solid 1.6px $text-color;
+	border-radius: 10px;
+	font-size: 0.7rem;
+	font-weight: 900;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
-.cluster{
-    margin: 2% 0;
-    width: 70%;
-    border-bottom: solid 1px $border-color;
+.cluster {
+	margin: 2% 0;
+	width: 70%;
+	border-bottom: solid 1px $border-color;
 }
-.row{
-    display: flex;
-    justify-content: center;
-    height: 100%;
+.row {
+	display: flex;
+	justify-content: center;
+	height: 100%;
 }
-.col{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    float: left;
+.col {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	float: left;
 }
-.contact{
-    display: flex;
-    flex-wrap: wrap;
-    font-family: 'Raleway', sans-serif;
-    h5{
-        font-size: 1rem;
-        margin: 1% 0;
-        font-weight: 600;
-        color: $text-color;
-        padding-right: 2rem;
-        letter-spacing: 0.1rem;
-    }
-    a{
-        text-decoration: none;
-        font-weight: 600;
-        color: $text-color;
-    }
-    a:hover{
-        color: $special-color;
-        transition: 0.5s;
-        transition-timing-function: ease;
-    }
-    
-    i{
-        // font-size: 1.2rem;
-        color: $text-color;
-        margin: 1% 2% 1% 0;
-        a{
-            font-family: 'Raleway',sans-serif;
-            padding-left: 0.5rem;
-        }
-        span{
-            font-family: 'Raleway',sans-serif;
-            padding-left: 0.5rem;
-            font-weight: 400;
-        }
-        &:hover{
-            color: $special-color;
-            transition: 0.3s;
-        }
-    }
-}
+.contact {
+	display: flex;
+	flex-wrap: wrap;
+	font-family: "Raleway", sans-serif;
+	h5 {
+		font-size: 1rem;
+		margin: 1% 0;
+		font-weight: 600;
+		color: $text-color;
+		padding-right: 2rem;
+		letter-spacing: 0.1rem;
+	}
+	a {
+		text-decoration: none;
+		font-weight: 600;
+		color: $text-color;
+	}
+	a:hover {
+		color: $special-color;
+		transition: 0.5s;
+		transition-timing-function: ease;
+	}
 
-.education{
-    // margin: 5% 0;
-    .cluster{
-        padding-bottom: 2%;
-    }
-}
-.experience{
-    // margin: 5% 0;
-    width: 80%;
-}
-.projects{
-    // margin: 5% 0;
-    a{
-        text-decoration: none;
-        font-weight: 900;
-        color: $special-color;
-        &:hover{
-            color: $text-color;
-            transition: 0.3s;
-        }
-    }
-    
+	i {
+		// font-size: 1.2rem;
+		color: $text-color;
+		margin: 1% 2% 1% 0;
+		a {
+			font-family: "Raleway", sans-serif;
+			padding-left: 0.5rem;
+		}
+		span {
+			font-family: "Raleway", sans-serif;
+			padding-left: 0.5rem;
+			font-weight: 400;
+		}
+		&:hover {
+			color: $special-color;
+			transition: 0.3s;
+		}
+	}
 }
 
-.note{
-    display: none;
-    padding-top: 2rem;
-    h5{
-        padding-top: 1rem;
-    }
-    span{
-        color: $special-color;
-        font-weight: 900;
-    }
-    a{
-        text-decoration: none;
-        color: $special-color;
-    }
+.education {
+	// margin: 5% 0;
+	.cluster {
+		padding-bottom: 2%;
+	}
 }
-@media all and (max-width: 480px){
-    .row{
-        display: flex;
-        flex-direction: column;
-    }
-    .col{
-        width: 100%;
-    }
-    h1{
-        font-size: 2.5rem;
-        i{
-            font-size: 1.8rem;
-            &:hover{
-                font-size: 2rem;
-            }
-        }
-    }
-    h2{
-        font-size: 1.7rem;
-        width: 100%;
-    }
-    h3{
-        font-size: 1rem;
-    }
-    h4{
-        font-size: 1rem;
-    }
-    h5{
-        font-size: 0.8rem;
-    }
-    i{
-        font-size: 0.7rem;
-        a{
-            font-size: .7rem;
-        }
-        span{
-            font-size: 0.7rem;
-        }
-    }
-    body{
-        line-height: 1.6;
-    }
-    .cluster{
-        width: 100%;
-    }
-    .experience{
-        width: 100%;
-    }
+.experience {
+	// margin: 5% 0;
+	width: 80%;
+}
+.projects {
+	// margin: 5% 0;
+	a {
+		text-decoration: none;
+		font-weight: 900;
+		color: $special-color;
+		&:hover {
+			color: $border-color;
+			transition: 0.3s;
+		}
+	}
+}
+
+.note {
+	display: none;
+	padding-top: 2rem;
+	h5 {
+		padding-top: 1rem;
+	}
+	span {
+		color: $special-color;
+		font-weight: 900;
+	}
+	a {
+		text-decoration: none;
+		color: $special-color;
+	}
+}
+@media all and (max-width: 480px) {
+	.row {
+		display: flex;
+		flex-direction: column;
+	}
+	.col {
+		width: 100%;
+	}
+	h1 {
+		font-size: 2.5rem;
+		i {
+			font-size: 1.8rem;
+			&:hover {
+				font-size: 2rem;
+			}
+		}
+	}
+	h2 {
+		font-size: 1.7rem;
+		width: 100%;
+	}
+	h3 {
+		font-size: 1rem;
+	}
+	h4 {
+		font-size: 1rem;
+	}
+	h5 {
+		font-size: 0.8rem;
+	}
+	i {
+		font-size: 0.7rem;
+		a {
+			font-size: 0.7rem;
+		}
+		span {
+			font-size: 0.7rem;
+		}
+	}
+	body {
+		line-height: 1.6;
+	}
+	.cluster {
+		width: 100%;
+	}
+	.experience {
+		width: 100%;
+	}
 }
 @media print {
-    tr.vendorListHeading {
-        background-color: $base-color !important;
-        -webkit-print-color-adjust: exact; 
-    }
-    h1{
-        i{
-            visibility: hidden;
-        }
-    }
-    .note{
-        display: block;
-    }
+	tr.vendorListHeading {
+		background-color: $base-color !important;
+		-webkit-print-color-adjust: exact;
+	}
+	h1 {
+		i {
+			visibility: hidden;
+		}
+	}
+	.note {
+		display: block;
+	}
 }
