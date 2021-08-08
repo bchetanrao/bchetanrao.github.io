@@ -210,7 +210,7 @@ h5 {
 }
 
 .note {
-  display: block;
+  display: none;
 }
 
 .note span {
@@ -220,7 +220,8 @@ h5 {
 
 .note a {
   text-decoration: none;
-  color: #f8485e;
+  color: #4895ef;
+  border-bottom: solid 1.5px #4895ef;
 }
 
 @media all and (max-width: 480px) {
