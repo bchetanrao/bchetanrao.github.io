@@ -103,7 +103,7 @@ h5 {
 
 .cluster {
   margin: 2% 0;
-  width: 100%;
+  width: 90%;
   border-bottom: solid 1px #00c1d4;
 }
 
@@ -115,6 +115,7 @@ h5 {
       -ms-flex-pack: center;
           justify-content: center;
   height: 100%;
+  margin-bottom: 2rem;
 }
 
 .col {
@@ -209,12 +210,7 @@ h5 {
 }
 
 .note {
-  display: none;
-  padding-top: 2rem;
-}
-
-.note h5 {
-  padding-top: 1rem;
+  display: block;
 }
 
 .note span {
