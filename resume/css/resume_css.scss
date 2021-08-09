@@ -254,7 +254,8 @@ h5 {
 		}
 	}
 	.note {
-		display: block;
+		display: flex;
+		align-self: flex-start;
 	}
 	.achievements {
 		margin-bottom: 0;
