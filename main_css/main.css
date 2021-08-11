@@ -257,6 +257,7 @@ footer span {
     left: -50%;
   }
   .blob4 {
+    display: none;
     bottom: -720%;
     right: 0%;
   }
