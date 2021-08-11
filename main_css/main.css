@@ -260,6 +260,10 @@ footer span {
     top: 190%;
     left: -50%;
   }
+  .blob3 img {
+    width: 200%;
+    height: auto;
+  }
   .blob4 {
     display: none;
     bottom: -720%;
