@@ -194,8 +194,12 @@ footer {
 		}
 	}
 	.blob1 {
-		top: -5%;
-		left: -30%;
+		top: -30%;
+		left: -70%;
+		img {
+			width: 250%;
+			height: auto;
+		}
 	}
 	.blob2 {
 		transform: rotate(50deg);
