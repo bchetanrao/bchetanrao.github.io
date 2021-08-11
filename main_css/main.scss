@@ -207,7 +207,7 @@ footer {
 		left: -50%;
 	}
 	.blob4 {
-		bottom: -755%;
+		bottom: -720%;
 		right: 0%;
 	}
 	html {
@@ -239,16 +239,28 @@ footer {
 		font-size: 0.7rem;
 		letter-spacing: 0.5rem;
 	}
+	section:nth-of-type(3) {
+		padding: 2rem 0;
+	}
 	.grid_container,
 	.grid_container_projects {
 		columns: 1;
 	}
 	footer {
 		z-index: -1;
-		a {
+		.footer {
+			h5 {
+				font-size: 1rem;
+			}
+		}
+		.icons {
+			width: 50%;
 			i {
 				font-size: 2rem;
 			}
+		}
+		span {
+			font-size: 0.8rem;
 		}
 	}
 }
