@@ -1,13 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600;700;900&display=swap");
 $base-color: #ffffff;
-$special-color: #f8485e;
-$text-color: #512d6d;
+$special-color: #ff004c;
+$text-color: #011627;
 $border-color: #00c1d4;
 $link-color: #4895ef;
 $link-color-dark: #3f37c9;
 
 html {
 	background-color: $base-color;
+}
+::selection {
+	color: $text-color;
+	background-color: $special-color;
 }
 body {
 	font-family: "Raleway", sans-serif;
@@ -169,6 +173,11 @@ h5 {
 .achievements {
 	.cluster {
 		padding-bottom: 0.5rem;
+	}
+	span {
+		a {
+			color: $link-color;
+		}
 	}
 }
 .note {

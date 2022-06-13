@@ -3,6 +3,16 @@ html {
   background-color: #ffffff;
 }
 
+::-moz-selection {
+  color: #011627;
+  background-color: #ff004c;
+}
+
+::selection {
+  color: #011627;
+  background-color: #ff004c;
+}
+
 body {
   font-family: "Raleway", sans-serif;
   margin: 3% 5%;
@@ -13,7 +23,7 @@ body {
 h1 {
   font-size: 4rem;
   font-weight: 900;
-  color: #f8485e;
+  color: #ff004c;
   margin: 0%;
   padding: 0;
   display: -webkit-box;
@@ -29,7 +39,7 @@ h1 {
 
 h1 a {
   text-decoration: none;
-  color: #f8485e;
+  color: #ff004c;
 }
 
 h1 i {
@@ -47,14 +57,14 @@ h1 i:hover {
 h2 {
   font-size: 2.5rem;
   font-weight: 900;
-  color: #f8485e;
-  border-bottom: solid 2px #f8485e;
+  color: #ff004c;
+  border-bottom: solid 2px #ff004c;
 }
 
 h3 {
   font-size: 1rem;
   font-weight: 700;
-  color: #512d6d;
+  color: #011627;
   margin: 0;
 }
 
@@ -62,19 +72,19 @@ h4 {
   font-size: 1.2rem;
   font-weight: 900;
   margin: 1% 0;
-  color: #f8485e;
+  color: #ff004c;
 }
 
 h4 a {
   text-decoration: none;
-  color: #f8485e;
+  color: #ff004c;
 }
 
 h5 {
   font-size: 1rem;
   margin: 1% 0;
   font-weight: 600;
-  color: #512d6d;
+  color: #011627;
 }
 
 .techstack {
@@ -91,7 +101,7 @@ h5 {
   width: -moz-fit-content;
   width: fit-content;
   min-width: 3%;
-  border: solid 1.6px #512d6d;
+  border: solid 1.6px #011627;
   border-radius: 10px;
   font-size: 0.7rem;
   font-weight: 900;
@@ -147,18 +157,18 @@ h5 {
   font-size: 1rem;
   margin-right: 2rem;
   font-weight: 600;
-  color: #512d6d;
+  color: #011627;
   letter-spacing: 0.1rem;
 }
 
 .contact a {
   text-decoration: none;
   font-weight: 600;
-  color: #512d6d;
+  color: #011627;
 }
 
 .contact a:hover {
-  color: #f8485e;
+  color: #ff004c;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   -webkit-transition-timing-function: ease;
@@ -166,7 +176,7 @@ h5 {
 }
 
 .contact i {
-  color: #512d6d;
+  color: #011627;
   margin: 1% 2% 1% 0;
 }
 
@@ -182,7 +192,7 @@ h5 {
 }
 
 .contact i:hover {
-  color: #f8485e;
+  color: #ff004c;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -209,12 +219,16 @@ h5 {
   padding-bottom: 0.5rem;
 }
 
+.achievements span a {
+  color: #4895ef;
+}
+
 .note {
   display: none;
 }
 
 .note span {
-  color: #f8485e;
+  color: #ff004c;
   font-weight: 900;
 }
 
