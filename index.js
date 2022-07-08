@@ -14,7 +14,6 @@ var animation = bodymovin.loadAnimation({
 	autoplay: true,
 	path: "data2.json",
 });
-
 var visitCount = localStorage.getItem("page_view");
 
 // Check if page_view entry is present
