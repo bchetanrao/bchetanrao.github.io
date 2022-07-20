@@ -5,12 +5,12 @@ html {
 
 ::-moz-selection {
   color: #011627;
-  background-color: #ff004c;
+  background-color: #d82148;
 }
 
 ::selection {
   color: #011627;
-  background-color: #ff004c;
+  background-color: #d82148;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
 h1 {
   font-size: 4rem;
   font-weight: 900;
-  color: #ff004c;
+  color: #d82148;
   margin: 0%;
   padding: 0;
   display: -webkit-box;
@@ -39,7 +39,7 @@ h1 {
 
 h1 a {
   text-decoration: none;
-  color: #ff004c;
+  color: #d82148;
 }
 
 h1 i {
@@ -57,8 +57,8 @@ h1 i:hover {
 h2 {
   font-size: 2.5rem;
   font-weight: 900;
-  color: #ff004c;
-  border-bottom: solid 2px #ff004c;
+  color: #d82148;
+  border-bottom: solid 2px #d82148;
 }
 
 h3 {
@@ -72,12 +72,12 @@ h4 {
   font-size: 1.2rem;
   font-weight: 900;
   margin: 1% 0;
-  color: #ff004c;
+  color: #d82148;
 }
 
 h4 a {
   text-decoration: none;
-  color: #ff004c;
+  color: #d82148;
 }
 
 h5 {
@@ -168,7 +168,7 @@ h5 {
 }
 
 .contact a:hover {
-  color: #ff004c;
+  color: #d82148;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   -webkit-transition-timing-function: ease;
@@ -192,7 +192,7 @@ h5 {
 }
 
 .contact i:hover {
-  color: #ff004c;
+  color: #d82148;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -228,7 +228,7 @@ h5 {
 }
 
 .note span {
-  color: #ff004c;
+  color: #d82148;
   font-weight: 900;
 }
 
