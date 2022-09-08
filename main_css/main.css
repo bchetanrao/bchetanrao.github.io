@@ -235,6 +235,11 @@ section:nth-of-type(4) {
   height: auto;
 }
 
+.grid_container .link,
+.grid_container_projects .link {
+  display: block;
+}
+
 #logo {
   -webkit-box-pack: end;
       -ms-flex-pack: end;

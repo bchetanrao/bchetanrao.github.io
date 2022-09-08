@@ -183,6 +183,9 @@ section:nth-of-type(4) {
 		height: auto;
 	}
 	margin-bottom: 10%;
+	.link {
+		display: block;
+	}
 }
 #logo {
 	justify-content: flex-end;
@@ -248,7 +251,7 @@ section:nth-of-type(4) {
 .insta {
 	// width: 80%;
 	padding: 1rem 2rem;
-	background-color: #fff;
+	background-color: $base-color;
 	// columns: 3;
 }
 .insta_container {
