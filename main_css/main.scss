@@ -247,12 +247,17 @@ section:nth-of-type(4) {
 }
 .insta-grid {
 	columns: 3;
+	// column-gap: 0.5rem;
 }
 .insta {
-	// width: 80%;
+	width: 100%;
 	padding: 1rem 2rem;
 	background-color: $base-color;
-	// columns: 3;
+	&:hover {
+		img {
+			transform: scale(1.0);
+		}
+	}
 }
 .insta_container {
 	background-color: $dark-color;
