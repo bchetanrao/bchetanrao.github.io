@@ -6,13 +6,13 @@ function hideLoader() {
 }
 
 // Add visit count logic and conditional animation
-var visitCount = localStorage.getItem("page_view");
+var visitCount = sessionStorage.getItem("page_view");
 if (visitCount) {
 	visitCount = Number(visitCount) + 1;
 } else {
 	visitCount = 1;
 }
-localStorage.setItem("page_view", visitCount);
+sessionStorage.setItem("page_view", visitCount);
 if (visitCount === 1) {
 	// First visit: run loader animation
 	var animation = bodymovin.loadAnimation({
